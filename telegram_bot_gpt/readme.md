@@ -12,9 +12,18 @@ Telegram‑бот підтримує наступний функціонал:
 
 1. Клонуйте репозиторій:
    ```bash
-   git clone https://github.com/Bigoook/JavaRushStudy/tree/main/telegram_bot_gpt
-   cd telegram_bot_gpt
+   # Клонуй репозиторій
+    git clone https://github.com/Bigoook/JavaRushStudy.git
+    cd JavaRushStudy
+
+    # Увімкни sparse-checkout
+    git sparse-checkout init --cone
+
+    # Вкажи потрібну папку
+    git sparse-checkout set telegram_bot_gpt
+    cd telegram_bot_gpt
    ```
+або завантажте папку https://github.com/Bigoook/JavaRushStudy/tree/main/telegram_bot_gpt
 
 2. Створіть та активуйте віртуальне середовище:
    ```bash
